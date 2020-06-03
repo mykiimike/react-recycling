@@ -1,0 +1,22 @@
+{
+  "name": "react-recycling",
+  "version": "1.0.0",
+  "description": "A way for simply recycling React Component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mykiimike/react-recycling.git"
+  },
+  "author": "Michael Vergoz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mykiimike/react-recycling/issues"
+  },
+  "homepage": "https://github.com/mykiimike/react-recycling#readme",
+  "dependencies": {
+    "react": "^16.13.1"
+  }
+}
