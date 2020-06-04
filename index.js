@@ -28,7 +28,8 @@ export default class RecycledComponent extends React.Component {
     // something need to be updated inside this component
     if (changed === true) {
       // recycling the state of the component
-      this.setState(this.cycle(this.props, false))
+      const ret = this.cycle(this.props, false)
+      if(ret && typeof ret === "object") this.setState(ret)
     }
   }
 
