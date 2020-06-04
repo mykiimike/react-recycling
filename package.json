@@ -1,6 +1,6 @@
 {
   "name": "react-recycling",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A way for simply recycling React Component",
   "main": "index.js",
   "scripts": {
