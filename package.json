@@ -16,7 +16,10 @@
     "url": "https://github.com/mykiimike/react-recycling/issues"
   },
   "homepage": "https://github.com/mykiimike/react-recycling#readme",
-  "dependencies": {
+  "peerDependencies": {
+    "react": "^16.13.1"
+  },
+  "devDependencies": {
     "react": "^16.13.1"
   }
 }
